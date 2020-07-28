@@ -1,0 +1,31 @@
+{
+  "license": "ISC",
+  "name": "jspeech-gram",
+  "version": "0.0.1",
+  "description": "Node.js module for creating JSpeech Grammar Formats, JSGF.",
+  "main": "src/index.js",
+  "keywords": [
+    "speech-recognition",
+    "vosk-api",
+    "speech",
+    "electron"
+  ],
+  "scripts":{
+    "start": "node --experimental-modules src/index.mjs"
+  },
+  "contributors": [
+    "Dmitriy Aleksandrovich Chernukho <wfuzerbar@gmail.com> (https://github.com/gormonn)"
+  ],
+  "author": "Dmitriy Aleksandrovich Chernukho <wfuzerbar@gmail.com> (https://github.com/gormonn)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gormonn/jspeech-gram.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gormonn/jspeech-gram/issues"
+  },
+  "homepage": "https://github.com/gormonn/jspeech-gram#readme",
+  "dependencies": {
+    "jspeech": "^0.1.1"
+  }
+}
